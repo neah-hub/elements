@@ -1,0 +1,152 @@
+body {
+    background-color: crimson;
+    text-align: center;
+}
+#homelink {
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+}
+#homelink {
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    font-family: 'ABORETO';
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#homelink:hover {
+    color: gold;
+    font-size: 150%;
+    cursor: pointer;
+    filter: brightness(150%);
+}
+#homelink:active {
+    color: white;
+}
+
+h1 {
+    text-align:center;
+    color: white;
+    font-family: 'Aboreto';
+    font-size: 200%;
+    margin-top: 240px;
+}
+h1:hover::before {
+    content: '★';
+}
+h1:hover::after {
+    content: '★';
+}
+#intro {
+    font-size: 20px;
+    color: white;
+    font-family: 'Adamina';
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 250px;
+
+}
+ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ol li {
+    font-size: 20px;
+    color: white;
+    font-family: 'Adamina';
+    text-align: center;
+    background:linear-gradient(to bottom, black, grey);
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside the box */
+    margin: 10px; /* Space between the boxes */
+    width: 200px;
+    height: 40px;
+    display: inline-block; /* Display boxes inline */
+    vertical-align: top; /* Align boxes to the top */
+    transition: transform 0.1s; /* Smooth transition for the jiggle effect */
+}
+
+ol li:hover {
+    animation: colorFlip 01s infinite; /* Apply jiggle and color flip animation on hover */
+}
+
+@keyframes colorFlip {
+    0%, 100% {
+        background: linear-gradient(to bottom, black, gold);
+    }
+    50% {
+        background: linear-gradient(to bottom, gold, black);
+    }
+}
+
+a {
+    color: springgreen;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+a:hover::before {
+    content: '★';
+}
+a:hover::after {
+    content: '★';
+}
+a:hover {
+    color: white;
+    font-size:150%;
+    cursor:pointer;
+    filter: brightness(150%);
+}
+a:active {
+    color: white;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    opacity: 1;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Aboreto';
+    margin-top: 20px;
+}
+h2:hover::before {
+    content: '★';
+}
+h2:hover::after {
+    content: '★';
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#para {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Adamina';
+    font-size: 20px;
+    color: white;
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Updock';
+    font-size: 30px;
+    filter: brightness(150%);
+}
